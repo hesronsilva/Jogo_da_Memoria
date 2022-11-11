@@ -1,0 +1,10 @@
+@import url('https://fonts.google.com/specimen/Pacifico');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+}
