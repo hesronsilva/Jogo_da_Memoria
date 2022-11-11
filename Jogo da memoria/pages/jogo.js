@@ -32,7 +32,8 @@ const checarFimjogo = () => {
 
     if (cartasDesativadas.length == 24) {
         clearInterval(this.loop);
-        alert(`Parabéns ${spanJogador.innerHTML}, você conseguiu finalizar o jogo!!Seu tempo foi ${cronometro.innerHTML}`);
+        alert(`Parabéns ${spanJogador.innerHTML}, você conseguiu finalizar o jogo!! Seu tempo foi ${cronometro.innerHTML} segundos`);
+        window.location = '../index.html';
     }
 }
 
